@@ -6,6 +6,7 @@
 :root {
   --bg-color: #fabdbd;
   --text-color: #470505;
+  --border-color: #ffffff;
 }
 
 
@@ -26,7 +27,7 @@ html {
 
 
 .main {
-  border: 0.5rem solid white;
+  border: 0.5rem solid var(--border-color);
   border-radius: 0.5rem;
   width: 90vw;
   height: 90vh;
@@ -74,12 +75,12 @@ button.active::after {
 
 
 #buttons .splitter {
-  border: 0.25rem solid white;
+  border: 0.25rem solid var(--border-color);
 }
 
 
 hr {
-  border: 0.25rem solid white;
+  border: 0.25rem solid var(--border-color);
 }
 
 #texts div {
